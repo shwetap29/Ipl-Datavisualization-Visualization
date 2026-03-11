@@ -4,54 +4,69 @@
 **Project Timeline:** Jan 2024 – Mar 2024  
 **Author:** Shweta Prasad
 
-## Project Overview
-This project analyzes the Indian Premier League (IPL) dataset from **2008 to 2020** to evaluate team and player performance and uncover meaningful cricket insights through data visualization.
+# 🏏 IPL Data Visualization 2008–2020
 
-The project combines:
-- **Python (Jupyter Notebook)** for data cleaning and exploratory analysis (EDA)
-- **Tableau** for interactive dashboards and storytelling
-- **PowerPoint** for presenting insights and recommendations
+> Exploratory data analysis and interactive Tableau dashboards across 12 seasons of the Indian Premier League — uncovering team performance trends, player impact, and match outcome drivers.
 
-## Project Goals
-- Analyze **team performance** and identify top-performing teams
-- Analyze **player performance** and identify top batsmen/bowlers
-- Build an **interactive dashboard** for exploring IPL trends
-- Present key insights on toss decisions, venues, match outcomes, and player rankings
+---
 
-## Tools & Technologies
-- Python
-- Jupyter Notebook
-- pandas / matplotlib (EDA)
-- Tableau
-- PowerPoint
+## 📌 Project Overview
 
-## Dataset
-The project uses IPL datasets covering the years **2008–2020**, including:
-- Match-level dataset (teams, venues, toss, winners, match details)
-- Ball-by-ball dataset (runs, wickets, batting/bowling details)
+The IPL dataset spans **12 seasons (2008–2020)** and contains rich match-level and delivery-level data. This project applies EDA and visual analytics to extract meaningful patterns in team performance, batting/bowling impact, and win conditions — presented through dashboards built for a non-technical sports audience.
 
-## Key Insights
-Some major insights explored in this project:
-1. **Impact of Toss Decision** on match outcomes
-2. **Most Successful IPL Teams** (titles and matches won)
-3. **Mumbai Indians vs Chennai Super Kings** team comparison
-4. **Top-performing Batsmen and Bowlers**
-5. **Strike Rate vs Boundaries/Sixes** relationship
-6. **Bowler Strike Rate vs Economy** relationship
+---
 
-## Repository Structure
-- `notebooks/` → Python notebook (EDA and analysis)
-- `reports/` → Project documentation
-- `slides/` → Final presentation slides
-- `images/` → Dashboard/chart screenshots
+## 🎯 Business Questions Answered
 
-## Business / Sports Value
-This project demonstrates how data visualization can support:
-- Team strategy decisions
-- Player performance evaluation
-- Match trend analysis
-- Data-driven storytelling for sports analytics
+- Which teams have been the most consistently dominant across seasons?
+- What factors most strongly predict match outcomes (toss, venue, batting order)?
+- Who are the top performers across batting, bowling, and all-round contribution?
+- How has team performance evolved season-over-season?
+- What is the impact of venue and home advantage on win rates?
 
-## Conclusion
-Using IPL historical data, this project highlights the factors influencing team success and player performance, and shows how visual analytics can help uncover patterns for future tournament strategy.
+---
 
+## 🛠️ Tools & Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| `Python (pandas, numpy)` | Data cleaning, transformation, EDA |
+| `matplotlib / seaborn` | Exploratory visualisations |
+| `Tableau` | Interactive dashboard design |
+| `Jupyter Notebook` | Analysis workflow |
+
+---
+
+## 📊 Key Findings
+
+- **Toss advantage** showed measurable but non-decisive impact on match outcomes — teams winning the toss won approximately 51% of matches
+- **Mumbai Indians and Chennai Super Kings** emerged as the most consistent performers across the 12-season window
+- **Venue analysis** revealed significant home-ground advantage patterns, particularly in high-altitude and spin-friendly pitches
+- **Top run-scorers and wicket-takers** by season identified, with trend analysis showing performance peaks and career trajectories
+
+---
+
+## 📁 Repo Structure
+
+```
+Ipl-Datavisualization-Visualization/
+│
+├── data/                  ← Raw IPL match and delivery datasets
+├── notebooks/             ← EDA Jupyter notebooks
+├── tableau/               ← Packaged Tableau workbooks (.twbx)
+├── visualizations/        ← Exported chart images
+└── README.md
+```
+---
+
+## 💡 Skills Demonstrated
+
+`Exploratory Data Analysis (EDA)` · `Python (pandas · matplotlib · seaborn)` · `Tableau Dashboard Design` · `Data Storytelling` · `Sports Analytics` · `Trend Analysis` · `Data Cleaning` · `Visual Communication`
+
+---
+
+## 🤝 Connect
+
+**Shweta Prasad** — Business Analyst & Analytics Enthusiast  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/shweta-prasad-47407bb7/)
+[![GitHub](https://img.shields.io/badge/GitHub-shwetap29-black?style=flat&logo=github)](https://github.com/shwetap29)
